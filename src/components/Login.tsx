@@ -101,12 +101,6 @@ export default function Login() {
               </Button>
             </VStack>
           </form>
-          <Text textAlign="center" mt={4}>
-            Don't have an account?{' '}
-            <Link as={RouterLink} to="/register" color="blue.500">
-              Register here
-            </Link>
-          </Text>
         </VStack>
       </Box>
     </Container>
